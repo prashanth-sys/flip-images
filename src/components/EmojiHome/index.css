@@ -1,0 +1,62 @@
+.emoji-home-page-container {
+  background-image: linear-gradient(
+    to bottom right,
+    #9796f0 0.5%,
+    #fbc7d4 150%
+  );
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+.emoji-back-icon {
+  background-color: transparent;
+  margin-left: 9%;
+  margin-top: 1%;
+  height: 40px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-family: 'Roboto';
+  border-width: 0px;
+  color: #334155;
+  font-weight: bold;
+}
+.emoji-back-button {
+  display: flex;
+  align-items: center;
+  margin-left: 9%;
+}
+.emoji-home-heading {
+  text-align: center;
+  color: #334155;
+  font-family: 'Roboto';
+}
+.emoji-home-game-image {
+  align-self: center;
+}
+.emoji-home-rules-text {
+  color: #334155;
+  font-family: 'Roboto';
+  margin-left: 9%;
+  font-size: 21px;
+}
+.emoji-home-rules-list {
+  margin-left: 9%;
+  font-family: 'Roboto';
+  color: #334155;
+  font-size: 17px;
+}
+.emoji-home-start-button {
+  width: 100px;
+  height: 39px;
+  margin-left: 9%;
+  background-color: #334155;
+  color: white;
+  font-family: 'Roboto';
+  font-weight: bold;
+  border-width: 0px;
+  border-radius: 5px;
+}

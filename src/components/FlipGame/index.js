@@ -168,7 +168,7 @@ class FlipGame extends Component {
   onClickFlipImage = id => {
     const {flippedCards, activeFlippedCards} = this.state
 
-    if (flippedCards[id] || activeFlippedCards.includes(id)) {
+    if (flippedCards[id]) {
       return
     }
 
@@ -178,7 +178,6 @@ class FlipGame extends Component {
         flippedCards: {
           ...prevState.flippedCards,
           [id]: true,
-          alt: cardsData.find(card => card.id === id).name,
         },
       }))
     }
@@ -205,7 +204,7 @@ class FlipGame extends Component {
             },
             activeFlippedCards: [],
           }))
-        }, 2000)
+        }, 3000)
       }
     }
   }
@@ -289,6 +288,8 @@ class FlipGame extends Component {
               />
 
               <h1>{won ? 'congratulations' : 'Better luck next time'}</h1>
+              {flipCount === 11 && <p>No.of Flips - 11</p>}
+
               <p>No.of Flips - {flipCount}</p>
               <h1>
                 {won

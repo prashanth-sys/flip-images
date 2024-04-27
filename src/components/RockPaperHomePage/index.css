@@ -1,0 +1,25 @@
+.span {
+  color: yellow;
+}
+.rock-image {
+  width: 20%;
+  align-self: center;
+}
+.rock-home-page {
+  background-color: #223a5f;
+  background-size: cover;
+  color: #ffffff;
+  height: 110vh;
+  display: flex;
+  flex-direction: column;
+}
+.rock-start {
+  width: 100px;
+  height: 39px;
+  background-color: #ffffff;
+  color: #223a5f;
+  font-family: 'Bree serif';
+  border-width: 0px;
+  border-radius: 5px;
+  margin-left: 10%;
+}
