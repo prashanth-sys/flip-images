@@ -1,0 +1,55 @@
+.flip-home-container {
+  background-color: #14332e;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.flip-home-back-button {
+  margin-left: 9%;
+  display: flex;
+  align-items: center;
+}
+.flip-back-button {
+  background-color: transparent;
+  margin-top: 1%;
+  height: 40px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-family: 'Roboto';
+  border-width: 0px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.flip-home-image {
+  align-self: center;
+}
+.flip-game-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  text-align: center;
+}
+.flip-rules {
+  margin-left: 9%;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 19px;
+}
+.flip-rules-list-container {
+  margin-left: 9%;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+.flip-start-game {
+  width: 100px;
+  height: 39px;
+  background-color: #ffffff;
+  color: #223a5f;
+  font-family: 'Bree serif';
+  border-width: 0px;
+  border-radius: 5px;
+  margin-left: 10%;
+}

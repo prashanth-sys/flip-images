@@ -1,0 +1,97 @@
+.flip-game-bg-container {
+  background-image: url('https://res.cloudinary.com/dlsuy2qn2/image/upload/v1711271571/2dc472b089708c4ab1d2e84f5bdc481f_1_afvbwc.jpg');
+  background-size: cover;
+  height: 170vh;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.flip-game-back-button {
+  background-color: transparent;
+  margin-top: 1%;
+  height: 40px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-family: 'Roboto';
+  border-width: 0px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.flip-game-button {
+  margin-left: 9%;
+  display: flex;
+  align-items: center;
+}
+.flip-rules-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+.flip-rules-button-container {
+  margin-right: 9%;
+}
+.flip-rules-button {
+  height: 40px;
+  width: 90px;
+  margin-top: 5px;
+  border: 2px solid #ffffff;
+  background-color: transparent;
+  border-radius: 5px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 17px;
+}
+.flip-level-time-container {
+  display: flex;
+  margin-left: 15%;
+  margin-right: 15%;
+  color: #ffffff;
+  justify-content: space-between;
+}
+.flip-card {
+  width: 928px;
+  height: 712px;
+  top: 296px;
+  left: 256px;
+  background-color: #154315;
+  border-radius: 24px;
+  align-self: center;
+}
+.flip-image-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.flip-result-game-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #14332e;
+  height: 100vh;
+  background-size: cover;
+  color: #ffffff;
+  font-family: 'Bree serif';
+  font-weight: 500;
+}
+.flip-result-image {
+  width: 99px;
+}
+.flip-congratulation {
+  color: #4ade80;
+  font-family: 'Bree serif';
+}
+.flip-play-again {
+  width: 100px;
+  height: 39px;
+  background-color: #ffffff;
+  color: #223a5f;
+  font-family: 'Bree serif';
+  border-width: 0px;
+  border-radius: 5px;
+}

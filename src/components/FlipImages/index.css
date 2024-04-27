@@ -1,0 +1,14 @@
+.flip-image-button {
+  background-color: #a7f3d0;
+  border-width: 0px;
+  width: 150px;
+  height: 150px;
+}
+.flip-image {
+  width: 70px;
+  height: 70px;
+}
+.list {
+  list-style-type: none;
+  margin: 5px;
+}
